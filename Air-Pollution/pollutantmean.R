@@ -5,7 +5,7 @@ oneMean <- function(file,polluttant){
   return (col)
 }
 
-pollutantmean <- function(directory, pollutant, id) {
+pollutantmean <- function(directory, pollutant, id = 1:332) {
   # calculates the mean of a pollutant (sulfate or nitrate) 
   # across a specified list of monitors.
   somme = c()
